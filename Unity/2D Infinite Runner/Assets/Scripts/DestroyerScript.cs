@@ -7,7 +7,8 @@ public class DestroyerScript : MonoBehaviour {
 	{
 		if (other.tag == "Player")
 		{
-			Debug.Break();
+			// Load scene 1 upon player death
+			Application.LoadLevel(1);
 			return;
 		}
 
