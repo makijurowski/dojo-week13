@@ -1,7 +1,10 @@
 # Ignore everything.  We'll whitelist what we want to pull in.
 Unity/2D Infinite Runner/Assets/BayatGames
 Unity/2D Infinite Runner/Assets/SampleScenes
+Unity/2D Infinite Runner/Assets/SampleScenes.meta
 Unity/2D Infinite Runner/Assets/Standard Assets
+Unity/2D Infinite Runner/Assets/Editor
+Unity/2D Infinite Runner/Assets/Editor.meta
 Unity/2D Infinite Runner/Library/
 Unity/2D Infinite Runner/Temp/
 Unity/2D Infinite Runner/obj/
@@ -109,5 +112,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 Unity/2D Infinite Runner/Assets/BayatGames.meta
-Unity/2D Infinite Runner/Assets/SpriteAnimationPreview/*
+Unity/2D Infinite Runner/Assets/SpriteAnimationPreview*
 Unity/2D Infinite Runner/.vscode/settings.json
+Unity/2D Infinite Runner/Assets/Editor/WakaTime/SceneDirtyChecker.cs.meta
