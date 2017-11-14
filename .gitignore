@@ -15,6 +15,7 @@ Unity/2D Infinite Runner/obj/*
 !Unity/2D Infinite Runner/ProjectSettings/
 !Unity/2D Infinite Runner/Assets/Scenes/          # Now add back our core game folders.
 !Unity/2D Infinite Runner/Assets/Scripts/
+!Unity/2D Infinite Runner/Assets/Animations/
 !Unity/2D Infinite Runner/Assets/Prefabs/
 !Unity/2D Infinite Runner/Assets/Standard Assets/2D/
 
@@ -108,3 +109,4 @@ $RECYCLE.BIN/
 *.lnk
 Unity/2D Infinite Runner/Assets/BayatGames.meta
 Unity/2D Infinite Runner/Assets/SpriteAnimationPreview/*
+Unity/2D Infinite Runner/.vscode/settings.json
