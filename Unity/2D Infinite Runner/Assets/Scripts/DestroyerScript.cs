@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyerScript : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
@@ -8,7 +9,7 @@ public class DestroyerScript : MonoBehaviour {
 		if (other.tag == "Player")
 		{
 			// Load scene 1 upon player death
-			Application.LoadLevel(1);
+			SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
 			return;
 		}
 

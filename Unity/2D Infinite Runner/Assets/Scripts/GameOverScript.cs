@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverScript : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class GameOverScript : MonoBehaviour {
 
 		if(GUI.Button(new Rect(Screen.width / 2 - 30, 350, 60, 30), "Retry?"))
 		{
-			Application.LoadLevel(0);
+			SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
 		}
 	}
 }
