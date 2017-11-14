@@ -2,9 +2,10 @@
 Unity/2D Infinite Runner/Assets/BayatGames
 Unity/2D Infinite Runner/Assets/SampleScenes
 Unity/2D Infinite Runner/Assets/Standard Assets
-Unity/2D Infinite Runner/Library/*
-Unity/2D Infinite Runner/Temp/*
-Unity/2D Infinite Runner/obj/*
+Unity/2D Infinite Runner/Library/
+Unity/2D Infinite Runner/Temp/
+Unity/2D Infinite Runner/obj/
+Unity/2D Infinite Runner/Builds/
 
 # Git meta files
 !.gitignore
